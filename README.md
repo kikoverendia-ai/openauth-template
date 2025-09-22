@@ -42,7 +42,8 @@ A live public deployment of this template is available at [https://openauth-temp
    ```bash
    npx wrangler kv namespace create AUTH_STORAGE
    ```
-   ...and update the `kv_namespaces` -> `id` field in `wrangler.json` with the new namespace ID.
+   ...and update the `kv_namespaces` -> `id` field in wrangler.json
+"name": "sweetcola27", 
 5. Deploy the project!
    ```bash
    npx wrangler deploy
